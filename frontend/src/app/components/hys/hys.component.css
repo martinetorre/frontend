@@ -1,0 +1,93 @@
+.row {
+    padding: 20px;
+}
+
+div {
+    background-color: rgb(40, 180, 218);
+}
+
+h3 {
+    color: aliceblue;
+    margin: 10px 0 80px 10px;
+    text-align: left;
+}
+
+p {
+    color: aliceblue;
+    margin-left: 5%;
+}
+
+#colaboración {
+    border-radius: 100%;
+    padding: 20px;
+}
+
+#arbol {
+    border-radius: 100%;
+    padding: 20px;
+}
+
+#compu {
+    border-radius: 100%;
+    padding: 20px;
+}
+
+#soft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+#argentina-campeon {
+    width: 100%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+#agregarHabilidad {
+    margin: 0 0 60px 0;
+}
+
+@media(max-width:575px) {
+#circle {
+    margin: 60px 0 80px 0;
+}
+
+#borrarSkill {
+    position: absolute;
+    margin: -220px 0 0 180px;
+}
+
+#editarSkill {
+    position: absolute;
+    margin: -80px 0 0 180px;
+
+}
+}
+
+@media(min-width:576px) {
+    #circle {
+        margin: 60px 0 80px 0;
+    }
+    
+    #borrarSkill {
+        position: absolute;
+        margin: -220px 0 0 160px;
+    }
+    
+    #editarSkill {
+        position: absolute;
+        margin: -80px 0 0 160px;
+    
+    }
+    }
+
+
+
+
+#continuemosExplorando {
+    margin: 50px 0 0 0;
+}

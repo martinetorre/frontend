@@ -1,0 +1,54 @@
+div {
+    text-align: left;
+    background-image: url('../../../assets/fondo2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p {
+    color: #000;
+}
+
+/* ajuste de la ubicación del nombre segun el tamaño de pantalla */
+
+@media(min-width:576px) {
+    #nombre {
+        margin: -90px 0 0 45%;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000;
+
+    }
+}
+
+@media(max-width:575px) {
+    #nombre {
+        font-family: 'Courier New', Courier, monospace;       
+        margin: -90px 0 0 33%;
+        color: #000;
+    }
+}
+
+
+/* ajuste del id img-perfil con relacion a los pixeles de la pantalla */
+
+@media(min-width:576px) {
+    #img-perfil {
+        border-radius: 503rem;
+        margin: -250px 0 0 10%;
+        width: 35%;
+    }
+}
+
+@media(max-width:575px) {
+    #img-perfil {
+        border-radius: 503rem;
+        margin: -273px 0 0 30%;
+        width: 30%;
+    }
+}
+
+#editarPersona{
+    text-align: right;
+}

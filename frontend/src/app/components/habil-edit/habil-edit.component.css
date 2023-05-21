@@ -1,0 +1,88 @@
+.row {
+    padding: 10%;
+  }
+  
+  
+  div {
+    background-image: url('../../../assets/experiencia.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  @media(min-width:576px) {
+  #federal {
+    width: 7%;
+    margin: -320px 0 0 94px;}
+  }
+  
+  @media(max-width:575px) {
+  #federal {
+    width: 20%;
+    margin: -183px 0 0 163px;
+  }
+  }
+  
+  
+  h2 {
+    margin: 0 0 0 20px;
+    color: #000;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    width: 100%;
+  
+  }
+  
+  p {
+    margin-left: 5%;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .flicker1 {
+    animation: tintinear 2s infinite backwards steps(4);
+    color: aqua;
+    font-size: x-large;
+  }
+  
+  .flicker2 {
+    animation: tintinear 2.5s infinite backwards steps(5);
+    color: orange;
+    font-size: x-large;
+  }
+  
+  .flicker3 {
+    animation: tintinear 2.7s infinite backwards steps(2);
+    color: greenyellow;
+    font-size: x-large;
+  }
+  
+  .flicker4 {
+    animation: tintinear 2.9s infinite backwards steps(3);
+    color: gold;
+    font-size: x-large;
+  }
+  
+  .flicker5 {
+    animation: tintinear 2.9s infinite backwards steps(3);
+    color: aqua;
+    font-size: x-large;
+  }
+  
+  .flicker6 {
+    animation: tintinear 1.1s infinite backwards steps(3);
+    color: gold;
+    font-size: x-large;
+    word-spacing: 80px;
+  }
+  
+  
+  
+  @keyframes tintinear {
+    to {
+      color: #000;
+      text-shadow: none;
+    }
+  }

@@ -1,0 +1,65 @@
+.row {
+    padding: 20px;
+  }
+  
+  div {
+    background-image: url('../../../assets/fondo2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .card.mb-3 {
+    background-image: url('../../../assets/fondo2.png');
+  }
+  
+  .col a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #img-lado {
+    background-image: url('../../../assets/fondo2.png');
+    margin: -30% 0 0 5%;
+    border-radius: 30%;
+  }
+  
+  
+  .rounded-t-5 {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  
+  @media (min-width: 575px) {
+    .rounded-tr-lg-0 {
+      border-top-right-radius: 0;
+  
+    }
+  
+    .rounded-bl-lg-5 {
+      border-bottom-left-radius: 0.5rem;
+    }
+  }
+  
+  @media(min-width:576px) {
+    #ingreseSinRegistrarse {
+      margin: 0 0 0 42%;
+    }
+  }
+  
+  @media(max-width:575px) {
+    #ingreseSinRegistrarse {
+      margin: 0 0 0 0;
+    }
+  }
+  
+  @media(max-width:575px) {
+    #IniciarSesion {
+      margin: 0 0 0 -43%;
+    }
+  }
+  
+  button {
+    position: absolute;
+  }

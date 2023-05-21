@@ -1,0 +1,41 @@
+div {
+    background-image: url('../../../assets/fondo2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: aliceblue;
+    margin: 50px 0 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    text-align: center;
+}
+
+h2{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin-top: 100px;
+}
+/*ajuste imagen about me segun tamaño de la pantalla*/
+
+@media(max-width:575px) {
+    img {
+        margin: 40px 0 50px 25%;
+        width: 50%;
+    }
+}
+
+@media(min-width:576px) {
+    img {
+        padding: 20px;
+        margin-top: 30px;
+        margin-left: 25%;
+        width: 50%;
+        margin: 40px 0 50px 25%;
+    }
+}

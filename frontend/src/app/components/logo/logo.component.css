@@ -1,0 +1,92 @@
+/*ajuste del logo argentina programa segun el tamaño de la pantalla*/
+
+@media(max-width:575px) {
+    #logoArgProg {
+        width: 170px;
+    }
+
+}
+
+@media(min-width:576px) {
+    #logoArgProg {
+        width: 170px;
+        margin: 40px 0 0 20px;
+    }
+}
+
+
+
+/* ajuste del icono git segun el tamaño de la pantalla */
+
+@media(max-width:575px) {
+    #git {
+        position: absolute;
+        width: 30px;
+        left: 75%;
+        margin: -63px 5px 0 5px;
+    }
+
+}
+
+@media(min-width:576px) {
+    #git {
+        position: absolute;
+        width: 30px;
+        left: 85%;
+        margin: -63px 5px 0 5px;
+
+    }
+}
+
+
+/* ajuste del icono whatsapp segun el tamaño de la pantalla*/
+
+@media(max-width:575px) {
+    #whats {
+        position: absolute;
+        width: 30px;
+        left: 85%;
+        margin: -63px 5px 0 5px;
+    }
+}
+
+@media(min-width:576px) {
+    #whats {
+        position: absolute;
+        width: 30px;
+        left: 90%;
+        margin: -63px 5px 0 5px;
+    }
+}
+
+/* ajuste del botón ingreso segun el tamaño de la pantalla */
+
+@media(max-width:575px) {
+    #ingreso {
+        position: absolute;
+        margin: -67px 20px 0 55%;
+    }
+}
+
+@media(min-width:576px) {
+    #ingreso {
+        padding: 0 5px 0 5px;
+        margin: -115px 15px 10px 300%;
+        padding: 5px;
+    }
+}
+
+@media(max-width:575px) {
+    #cerrar-cesion {
+        position: absolute;
+        margin: -60px 20px 0 50%;
+        padding: 2px;
+    }
+}
+
+@media(min-width:576px) {
+    #cerrar-cesion {
+        position: absolute;
+        margin: -65px 20px 0 70%;       
+    }
+}

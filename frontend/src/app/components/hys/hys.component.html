@@ -1,0 +1,43 @@
+<div class="row">
+    <h3>Habilidades</h3>
+    <div class="col-lg-2">
+        <button type="button" routerLink="/newskill" class="btn btn-light" *ngIf="isLogged" id="agregarHabilidad">
+            Agregar habilidad
+            <i class="bi bi-pencil-square"></i></button>
+    </div>
+
+    <div class="text-center col-sm-4 col-md-4 col-lg-4" *ngFor="let skill of skill" id="circle">
+       
+         <td *ngIf="isLogged">
+            <button class="btn btn-light" routerLink="/editskill/{{skill.id}}" id="editarSkill">
+                <i class="bi bi-pencil-fill"></i>
+                Editar
+            </button>
+        </td>
+        <circle-progress       
+        [percent]="(skill.porcentaje)" 
+        [showUnits]="true" 
+        [unitsColor]="'#000'" 
+        [radius]="80"
+        [subtitle]="(skill.nombre)" 
+        [subtitleColor]="'aliceblue'" 
+        [subtitleFontSize]="'15'" 
+        [subtitleColor]="'#000'"
+        [outerStrokeWidth]="6" 
+        [innerStrokeWidth]="4" 
+        [outerStrokeColor]="'#C7E596'" 
+        [innerStrokeColor]="'#000'"
+        [animation]="true" 
+        [animationDuration]="3000">
+        </circle-progress>
+        <td *ngIf="isLogged">
+            <button class="btn btn-danger" (click)="delete(skill.id)" id="borrarSkill">
+                <i class="bi bi-trash3-fill"></i>
+                Borrar
+            </button>
+        </td>
+    </div>
+    <button type="button" class="btn btn-outline-warning" (click)="Continuemos()" id="continuemosExplorando">
+        Continuemos explorando
+    </button>
+</div>

@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="container">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank"
+                            title="Argentina Programa 4.0"><img src="../../../assets/logoArgProg.png"
+                                    alt="logo argentina programa" id="logoArgProg"></a>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <a href="https://github.com/TorreMartin?tab=repositories" target="_blank" title="Github"><img
+                                    src="../../../assets/git.png" alt="github" id="git"></a>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <a href="https://web.whatsapp.com/" target="_blank" title="whatsapp" alt="whatsapp"><img
+                                    src="../../../assets/whatsapp.png" id="whats"></a>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+
+                    <button type="button" class="btn btn-outline-light" target="_blank" title="log-in" id="ingreso"
+                            (click)="login()" *ngIf="!isLogged">ingreso</button>
+                    <button type="button" class="btn btn-outline-light" target="_blank" title="cerrar cesion" id="cerrar-cesion"
+                            (click)="onLogOut()" *ngIf="isLogged">cerrar sesion</button>
+            </div>
+    </div>
+</div>
+

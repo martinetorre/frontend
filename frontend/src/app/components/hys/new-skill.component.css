@@ -1,0 +1,33 @@
+.row{
+    padding: 20px;
+}
+div {    
+    background-image: url('../../../assets/fondo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p{
+    color: gold;
+    margin: 0;
+}
+
+h3{
+    color: gold;
+    margin: 5px 0 30px 10px;
+}
+
+#nombre{
+    margin: 15px 0 80px 0;
+}
+
+#porcentaje{
+    margin: 25px 0 30px 0;
+    padding: 0 0 0 0;    
+}
+
+button{
+    margin: 20px 0 50px 0;
+}

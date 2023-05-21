@@ -1,0 +1,17 @@
+.row {
+    padding: 130px 30px 30px 30px;
+}
+
+
+div{
+    background-image: url('../../../assets/fondo2.png');
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+button{
+    margin: -50px 0 20px 0;
+}

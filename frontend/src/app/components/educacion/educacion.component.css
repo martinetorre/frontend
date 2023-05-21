@@ -1,0 +1,29 @@
+.row{
+    padding: 20px;
+  }
+  
+  div{
+    background-color: rgb(40, 180, 218);
+  }
+  
+  h1{
+    color:aliceblue;
+    padding: 0 0 30px 0; 
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline;
+    margin: 0 0 0 10px ;
+  }
+  
+  #boton-recreo{
+    margin: 50px 10px 50px 10px;
+    padding: 30px 10px 30px 10px;
+    font-size:x-large; 
+    width: 100%; 
+  }
+
+  #agregarEducacion{
+    margin: 0 0 70px 0;
+  }
+
+  

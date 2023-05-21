@@ -1,0 +1,22 @@
+div{    
+    background-image: url('../../../assets/fondo2.png');
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    color: aliceblue;
+    padding: 5%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+#pizarron{
+    padding: 20px 20px 20px 20px;
+    width: 70%;
+    margin: 0 15% 15% 15%;
+}

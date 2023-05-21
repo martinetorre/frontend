@@ -1,0 +1,21 @@
+.row{
+    padding: 20px;
+  }
+  
+  div{
+    background-color: rgb(40, 180, 218);
+  }
+
+  h1{
+    color:aliceblue;
+    padding: 0 0 30px 0; 
+  }
+
+  #boton-salida{
+    padding: 10px 0 10px 0;
+    margin: 30px 10px 40px 10px;    
+  }
+
+  #agregarExperiencia{
+    margin: 0 0 70px 0;
+  }

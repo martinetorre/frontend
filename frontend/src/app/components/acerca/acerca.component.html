@@ -1,0 +1,15 @@
+<div class="row">
+
+    <button type="button" class="btn btn-info" routerLink="/editacerca/1" *ngIf="isLogged" id="editarPersona">
+        editar → persona
+        <i class="bi bi-pencil-square"></i></button>
+
+    <div class="col-sm-6 col-md-6 ">       
+        <img [src] = "persona.img"  alt = "{{persona.nombre}} {{persona.apellido}}" [title] = "persona.nombre"  class="img-fluid" id="img-perfil"><br>
+        <p id="nombre">{{persona.nombre}} {{persona.apellido}}</p><br>
+    </div>
+
+  <!--<div class="col-sm-6 col-md-6 ">
+        <p>{{persona.descripcion}}</p>
+    </div>--> 
+</div>
