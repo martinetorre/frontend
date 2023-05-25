@@ -31,7 +31,7 @@ import { NewSkillComponent } from './components/hys/new-skill.component';
 import { EditAcercaComponent } from './components/acerca/edit-acerca.component';
 import { LoginComponent } from './components/login/login.component';
 import { CommonModule } from '@angular/common';
-//import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 //import { provideStorage,getStorage } from '@angular/fire/storage';
 
@@ -74,7 +74,7 @@ import { environment } from '../environments/environment';
     CommonModule,
     ReactiveFormsModule,        
     NgCircleProgressModule.forRoot({}), 
-   // provideFirebaseApp(() => initializeApp(environment.firebase)), 
+    //provideFirebaseApp(() => initializeApp(environment.firebase)), 
     //provideStorage(() => getStorage()),
     
   ],
